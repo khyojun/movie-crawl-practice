@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Posters</title>
+</head>
+<body>
+<h1>Movie Posters</h1>
+<table>
+  <tr th:each="moviePoster : ${moviePosters}">
+    <td th:text="${moviePoster.title}"></td>
+    <td><img th:src="${moviePoster.imageUrl}" /></td>
+  </tr>
+</table>
+</body>
+</html>
