@@ -20,7 +20,7 @@
 - 📌 Entity
   - id(PK) autoincrement 방식 사용
   - title: 영화 제목
-  - imageUrl: 영화 포스터 ur
+  - imageUrl: 영화 포스터 url
 
 
 - 추가 확인 사항
