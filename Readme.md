@@ -17,6 +17,10 @@
 - 📌 Repository
   - Spring Data Jpa 사용하여 DB와 연결
 
+- 📌 Entity
+  - id(PK) autoincrement 방식 사용
+  - title: 영화 제목
+  - imageUrl: 영화 포스터 ur
 
 
 - 추가 확인 사항
